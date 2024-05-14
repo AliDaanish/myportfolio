@@ -29,6 +29,11 @@ import myweb from "./myweb.png"
 import lazisD from "./LazisD.png"
 import goodreadsM from "./goodreadsM.png"
 
+import linkedIn from "./socialLink.png"
+import tweetX from "./socialX.png"
+import chocobo from "./chocobo.png"
+import chocobo2 from "./chocoboFail.png"
+
 export {
   logo,
   aboutLogo01,
@@ -56,5 +61,9 @@ export {
   codepolitan,
   lazisD,
   myweb,
-  goodreadsM
+  goodreadsM,
+  linkedIn,
+  tweetX,
+  chocobo,
+  chocobo2
 };

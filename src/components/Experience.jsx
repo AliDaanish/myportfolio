@@ -5,7 +5,6 @@ import { styles } from '../styles'
 import { experiences } from '../constants'
 import { SectionWrapper } from './hoc'
 import { textVariant } from "../utils/motion"
-import { div } from "three/examples/jsm/nodes/Nodes.js"
 
 const ExperienceCard = ({ experience }) => (
   
@@ -14,12 +13,13 @@ const ExperienceCard = ({ experience }) => (
     contentArrowStyle={{ borderRight: '7px solid #232631'}}
     date={experience.date}
     iconStyle={{ background: experience.iconBg}}
+    lineColor={"#915eff"}
     icon={
       <div className="flex justify-center items-center w-full h-full">
         <img 
           src={experience.icon} 
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain" 
+          className="w-[80%] h-[80%] object-contain" 
         />
       </div>
     }

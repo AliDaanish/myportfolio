@@ -21,7 +21,11 @@ import {
     codepolitan,
     lazisD,
     myweb,
-    goodreadsM
+    goodreadsM,
+    tweetX,
+    linkedIn,
+    chocobo,
+    chocobo2
 
   } from "../assets";
   
@@ -40,6 +44,19 @@ import {
     },
   ];
   
+  const socialContact = [
+    {
+      id: "linkedIn",
+      icon: linkedIn,
+      url: "https://www.linkedin.com/in/ali-daanish-17b315245/"
+    },
+    {
+      id: "tweetX",
+      icon: tweetX,
+      url: "https://twitter.com/AliDaanish777"
+    }
+  ]
+
   const services = [
     {
       title: "UI Designer",
@@ -135,7 +152,7 @@ import {
         "arrange Product Development Process-PRD, Go-To Market Strategy(GTM)",
         "Product Development Process, User Research, User Persona, User Journey and Wireframing",
         "Create Design System, Mockup and Prototyping product.",
-        "Redesign Goodreads Mobile App for Final Project and earn the Highest GPA Score, and Title High Achiever"
+        "Redesign Goodreads Mobile App for Final Project and earn the Highest GPA Score"
       ],
     },
     {
@@ -188,7 +205,7 @@ import {
         },
       ],
       image: myweb,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AliDaanish/myportfolio",
     },
     {
       iconLink: figmaLogo,
@@ -213,5 +230,20 @@ import {
       source_code_link: "https://www.figma.com/file/HxHThlVEGJOPoSgFZLowPd/Redesign-Goodreads-Prototype?type=design&node-id=0%3A1&mode=design&t=tTHMVB1CZTMdnRof-1",
     },
   ];
+
+  const popDatas = [
+    {
+      id: "1",
+      icon: chocobo,
+      first: "Thank you.",
+      second: "I will get back to you as soon as possible."
+    },
+    {
+      id: "2",
+      icon: chocobo2,
+      first: "I am Sorry.",
+      second: "Somethings went wrong"
+    }
+  ]
   
-  export { services, technologies, experiences, projects };
+  export { services, technologies, experiences, projects, socialContact, popDatas };

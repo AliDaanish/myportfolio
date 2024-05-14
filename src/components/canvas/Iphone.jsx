@@ -22,7 +22,7 @@ const Iphone = ({ isMobile }) => {
 
       <primitive
         object={iPhone.scene}
-        scale={isMobile ? 12 : 24}
+        scale={isMobile ? 18 : 24}
         position={isMobile ? [0, -0.8, 0] : [0, -1.20, 0]}
         rotation={[0, -1.9, -0.1]}
       />
