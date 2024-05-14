@@ -47,7 +47,7 @@ const Contact = () => {
         to_email: 'project.soldier777@gmail.com',
         message: form.message,
       },
-      // 'p_-3-3vSWJVSGR611'
+      'p_-3-3vSWJVSGR611'
     )
     .then(() => {
       setloading(false)
